@@ -2,10 +2,10 @@ import os
 import time
 
 #1. The files and directories to be backed up are specified in a list.
-source = ['/home/fritzrage/Learning/Codeforces', '/home/fritzrage/Learning/Python']
+source = ['<directory path1>', '<directory path2>']
 
 #2. The directory where the backup is to be taken
-target_dir = '/home/fritzrage/Learning/Backup'
+target_dir = '<directory path>/Backup'
 
 #3. The files are backed up into a zip file.
 #4. The current day is the name of the subdirectory in the main directory
